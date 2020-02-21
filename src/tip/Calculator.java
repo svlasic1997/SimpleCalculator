@@ -70,7 +70,7 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		
-		Calculator c = new Calculator(23.51, 15.00, 1);
+		Calculator c = new Calculator(100.00, 15.00, 1);
 		
 		System.out.println("Your total bill is " + c.getBillAmount() + " and you want to tip " + c.getTipPercentage() + " percent.");
 		
